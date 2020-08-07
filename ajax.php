@@ -23,7 +23,6 @@ if(isset($_POST["acao"]))
 	$acao = $Helper->limpaCampo( $_POST["acao"] );
 }
 
-
 switch($acao)
 {
     case 'LOGAR':
