@@ -9,10 +9,10 @@
 
         function __construct() {
             try {
-                $config['dbname'] = 'teste';
-                $config['host'] = 'localhost';
-                $config['dbuser'] = 'aged';
-                $config['dbpass'] = '%*Juliano8274';
+                $config['dbname'] = 'nomeservidor';
+                $config['host'] = 'caminhodoservidor';
+                $config['dbuser'] = 'nomeusuario';
+                $config['dbpass'] = 'senha';
                 $this->db = new \PDO("mysql:host=".$config['host'].";dbname=".$config['dbname'], $config['dbuser'], $config['dbpass'], array(
                     \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
                     \PDO::ATTR_EMULATE_PREPARES => false,
